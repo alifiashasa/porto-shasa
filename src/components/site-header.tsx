@@ -7,9 +7,9 @@ import { MAIN_NAV } from "@/config/site";
 import { getAllPosts } from "@/features/blog/data/posts";
 import { cn } from "@/lib/utils";
 
-import { SiteHeaderMark } from "./site-header-mark";
 import { SiteHeaderWrapper } from "./site-header-wrapper";
 import { ToggleTheme } from "./toggle-theme";
+import Image from "next/image";
 
 const BrandContextMenu = dynamic(() =>
   import("@/components/brand-context-menu").then((mod) => mod.BrandContextMenu)
@@ -40,8 +40,14 @@ export function SiteHeader() {
         data-header-container
       >
         <BrandContextMenu>
-          <Link href="/" aria-label="Home" className="[&_svg]:h-8">
-            <SiteHeaderMark />
+          <Link href="/" aria-label="Home" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={32}
+              height={32}
+              className="size-8 rounded-md object-contain"
+            />
           </Link>
         </BrandContextMenu>
 

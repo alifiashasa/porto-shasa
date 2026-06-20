@@ -6,8 +6,6 @@ import { SOCIAL_LINKS } from "@/features/profile/data/social-links";
 import { TECH_STACK } from "@/features/profile/data/tech-stack";
 import { USER } from "@/features/profile/data/user";
 
-
-
 const aboutText = `## About
 
 ${USER.about.trim()}
@@ -73,7 +71,7 @@ ${CERTIFICATIONS.map((item) => `- [${item.title}](${item.credentialURL})`).join(
 async function getContent() {
   return `<SYSTEM>This document contains comprehensive information about ${USER.displayName}'s professional profile and portfolio. It includes personal details, work experience, education, projects, achievements, and certifications. This data is formatted for consumption by Large Language Models (LLMs) to provide accurate and up-to-date information about ${USER.displayName}'s background, skills, and expertise as a Design Engineer.</SYSTEM>
 
-# fadils.xyz
+# shasa.web.id
 
 > A minimal portfolio and component registry to showcase my work as a Design Engineer.
 

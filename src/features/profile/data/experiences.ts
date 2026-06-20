@@ -16,7 +16,12 @@ export const EXPERIENCES: Experience[] = [
 - Mengoperasikan peralatan fotografi serta membantu pengaturan pencahayaan dan komposisi visual.
 - Mengelola hasil foto dasar (seleksi dan pengorganisasian file) sebelum proses editing lanjutan.`,
         icon: "design",
-        skills: ["Fotografi", "Customer Service", "Photo Editing", "Visual Composition"],
+        skills: [
+          "Fotografi",
+          "Customer Service",
+          "Photo Editing",
+          "Visual Composition",
+        ],
       },
     ],
   },
@@ -35,7 +40,12 @@ export const EXPERIENCES: Experience[] = [
 - Berkoordinasi dengan klien dan tim untuk memastikan hasil dokumentasi sesuai konsep dan ekspektasi.
 - Mengatur alur pengambilan gambar serta memastikan hasil visual tersusun rapi dan siap untuk proses editing.`,
         icon: "design",
-        skills: ["Videografi", "Content Creation", "Video Editing", "Komunikasi"],
+        skills: [
+          "Videografi",
+          "Content Creation",
+          "Video Editing",
+          "Komunikasi",
+        ],
       },
     ],
   },
@@ -76,7 +86,12 @@ export const EXPERIENCES: Experience[] = [
 - Membimbing anggota dalam pembelajaran dasar programming melalui sesi praktik dan diskusi.
 - Berkolaborasi dalam pelaksanaan kegiatan dan pengembangan komunitas belajar.`,
         icon: "design",
-        skills: ["Content Creation", "Programming Mentoring", "Teamwork", "Community Building"],
+        skills: [
+          "Content Creation",
+          "Programming Mentoring",
+          "Teamwork",
+          "Community Building",
+        ],
       },
     ],
   },
@@ -96,7 +111,12 @@ export const EXPERIENCES: Experience[] = [
 - Menangani kendala teknis dan non-teknis dalam kelompok.
 - Mengembangkan kemampuan komunikasi, teamwork, dan problem solving.`,
         icon: "business",
-        skills: ["Event Management", "Communication", "Teamwork", "Problem Solving"],
+        skills: [
+          "Event Management",
+          "Communication",
+          "Teamwork",
+          "Problem Solving",
+        ],
       },
     ],
   },
@@ -109,7 +129,8 @@ export const EDUCATION: Experience[] = [
     positions: [
       {
         id: "education-universitas-harkat-negeri",
-        title: "Universitas Harkat Negeri — Sarjana Terapan Teknik Informatika (D4)",
+        title:
+          "Universitas Harkat Negeri — Sarjana Terapan Teknik Informatika (D4)",
         employmentPeriod: {
           start: "09.2023",
         },

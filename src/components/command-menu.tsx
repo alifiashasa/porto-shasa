@@ -231,8 +231,6 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
             onLinkSelect={handleOpenLink}
           />
 
-
-
           <CommandSeparator />
 
           <CommandLinkGroup
@@ -276,8 +274,6 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
               <TypeIcon />
               Copy Logotype as SVG
             </CommandItem>
-
-
 
             <CommandItem asChild>
               <a

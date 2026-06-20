@@ -15,7 +15,7 @@ Ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/fadilsflow/dporto1408.git minimal-portfolio
+git clone https://github.com/alifiashasa/porto-shasa.git minimal-portfolio
 cd minimal-portfolio
 ```
 

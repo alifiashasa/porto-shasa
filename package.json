@@ -1,24 +1,24 @@
 {
-  "name": "fadils.xyz",
+  "name": "shasa.web.id",
   "version": "0.1.0",
   "description": "A minimal portfolio and component registry.",
-  "homepage": "https://fadils.xyz",
+  "homepage": "https://shasa.web.id",
   "license": "MIT",
   "author": {
-    "name": "Wahyu akhmad fadillah  ",
-    "email": "wahyufadil1140@gmail.com",
-    "url": "https://github.com/fadilsflow"
+    "name": "Alifia Shafa Shabrina",
+    "email": "alifiashasa30@gmail.com",
+    "url": "https://github.com/alifiashasa"
   },
   "contributors": [
     {
-      "name": "Wahyu akhmad fadillah  ",
-      "email": "wahyufadil1140@gmail.com",
-      "url": "https://github.com/fadilsflow"
+      "name": "Alifia Shafa Shabrina",
+      "email": "alifiashasa30@gmail.com",
+      "url": "https://github.com/alifiashasa"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fadilsflow/dporto1408.git"
+    "url": "git+https://github.com/alifiashasa/porto-shasa.git"
   },
   "scripts": {
     "dev": "next dev -p 1408",

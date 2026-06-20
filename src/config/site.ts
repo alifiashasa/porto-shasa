@@ -5,7 +5,7 @@ import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://fadils.xyz",
+  url: process.env.APP_URL || "https://shasa.web.id",
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
@@ -32,12 +32,12 @@ export const MAIN_NAV: NavItem[] = [
 ];
 
 export const GITHUB_USERNAME = "alifiashasa";
-export const SOURCE_CODE_GITHUB_REPO = "fadilsflow/dporto1408";
+export const SOURCE_CODE_GITHUB_REPO = "alifiashasa/porto-shasa";
 export const SOURCE_CODE_GITHUB_URL =
-  "https://github.com/fadilsflow/dporto1408";
+  "https://github.com/alifiashasa/porto-shasa";
 
 export const UTM_PARAMS = {
-  utm_source: "fadils.xyz",
+  utm_source: "shasa.web.id",
   utm_medium: "portfolio_website",
   utm_campaign: "referral",
 };

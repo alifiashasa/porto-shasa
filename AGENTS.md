@@ -1,12 +1,12 @@
-# AI Agent Guidelines for fadils.xyz
+# AI Agent Guidelines for shasa.web.id
 
-This guide provides essential information for AI agents working with the fadils.xyz codebase - a Next.js portfolio, blog, and component registry website.
+This guide provides essential information for AI agents working with the shasa.web.id codebase - a Next.js portfolio, blog, and component registry website.
 
 ## Project Overview
 
-**fadils.xyz** is a minimal portfolio, component registry, and blog built with modern web technologies. It serves as:
+**shasa.web.id** is a minimal portfolio, component registry, and blog built with modern web technologies. It serves as:
 
-- Personal portfolio for Wahyu Akhmad Fadillah
+- Personal portfolio for Alifia Shafa Shabrina
 - Component registry using shadcn/ui system
 - Blog with MDX content
 - Showcase for custom React components

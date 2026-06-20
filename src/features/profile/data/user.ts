@@ -13,17 +13,17 @@ export const USER: User = {
   email: "YWxpZmlhc2hhc2EzMEBnbWFpbC5jb20=", // base64 encoded
   website: "https://shasa.web.id",
   jobTitle: "UI/UX Designer & Mobile Developer",
-  flipSentences: ["UI/UX Designer", "Mobile Developer"],
+  flipSentences: ["UI/UX Designer", "Front-end Developer"],
 
   jobs: [
     {
-      title: "UI/UX Designer & Mobile Developer",
+      title: "UI/UX Designer & Front-end Developer",
       // company: "Freelance",
-      // website: "https://fadils.web.id",
+      // website: "https://shasa.web.id",
     },
   ],
   about: `
-Hello, World! Saya **Alifia Shafa Shabrina** — mahasiswi semester 6 Teknik Informatika yang berfokus pada UI/UX Designer & Mobile Developer.
+Hello, World! Saya **Alifia Shafa Shabrina** — mahasiswi semester 6 Teknik Informatika yang berfokus pada UI/UX Designer & Front-end Developerr.
 
 Saya memiliki pengalaman dalam merancang dan mengembangkan antarmuka aplikasi lintas platform yang responsif, interaktif, dan *user-friendly*. Saya terbiasa menggunakan *state management* (seperti GetX), mengintegrasikan REST API, serta membangun solusi *frontend* modern dengan dukungan *AI-assisted tools* untuk mempercepat proses pengembangan.
 

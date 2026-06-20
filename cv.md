@@ -1,6 +1,6 @@
 ALIFIA SHAFA SHABRINA
 
-Tegal, Jawa Tengah, Indonesia | alifiashasa30[@gmail.com](mailto:wahyufadil1140@gmail.com) | 087842231289 [github.com/alifiashasa](https://github.com/alifiashasa) | [fadils.web.id](https://fadils.web.id) | [linkedin.com/in/alifia-shafa-shabrina](https://www.linkedin.com/in/alifia-shafa-shabrina-ab4183312/)
+Tegal, Jawa Tengah, Indonesia | alifiashasa30[@gmail.com](mailto:alifiashasa30@gmail.com) | 087842231289 [github.com/alifiashasa](https://github.com/alifiashasa) | [shasa.web.id](https://shasa.web.id) | [linkedin.com/in/alifia-shafa-shabrina](https://www.linkedin.com/in/alifia-shafa-shabrina-ab4183312/)
 
 **PROFIL SINGKAT**
 

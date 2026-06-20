@@ -48,7 +48,6 @@ export function JobItem({
               >
                 {company}
               </a>
-
             </>
           )}
         </>

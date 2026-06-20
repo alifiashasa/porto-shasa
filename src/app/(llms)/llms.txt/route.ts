@@ -1,6 +1,6 @@
 import { SITE_INFO } from "@/config/site";
 
-const content = `# fadils.xyz
+const content = `# shasa.web.id
 
 > A minimal portfolio and component registry to showcase my work as a Design Engineer.
 

@@ -1,4 +1,3 @@
-
 import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -10,11 +9,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://github.com/fadilsflow"
+            href="https://github.com/alifiashasa"
             target="_blank"
             rel="noopener"
           >
-            fadil
+            shasa
           </a>
           . The source code is available on{" "}
           <a
