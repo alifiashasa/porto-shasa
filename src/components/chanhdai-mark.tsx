@@ -1,20 +1,24 @@
-export function ChanhDaiMark(props: React.ComponentProps<"svg">) {
+import Image from "next/image";
+
+import { cn } from "@/lib/utils";
+
+import logo from "../../public/logo.png";
+
+export function ChanhDaiMark({
+  className,
+  width = 36,
+  height = 36,
+  ...props
+}: Omit<React.ComponentProps<typeof Image>, "src" | "alt">) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="currentColor"
-      viewBox="0 200 810 450"
-      width="64"
-      height="36"
+    <Image
+      src={logo}
+      alt="Logo"
+      width={width}
+      height={height}
+      className={cn("aspect-square object-contain", className)}
       {...props}
-    >
-      <g transform="translate(8.7789 629.89)">
-        <path d="m84.156-168.31v168.31h-84.156v-420.38h336.22v84.156h-252.06v83.75h252.06v84.156z" />
-      </g>
-      <g transform="translate(378.7 629.89)">
-        <path d="m420.38-336.22v252.06h-84.156v84.156h-336.22v-420.38h336.22v84.156zm-336.22 252.06h251.23v-252.06h-251.23z" />
-      </g>
-    </svg>
+    />
   );
 }
 
@@ -22,17 +26,11 @@ export function getMarkSVG(color: string) {
   const fullSvg = `
     <svg 
       xmlns="http://www.w3.org/2000/svg"
-      fill="${color}"
-      viewBox="0 200 810 450"
+      viewBox="0 0 180 180"
       width="64"
-      height="36"
+      height="64"
     >
-      <g transform="translate(8.7789 629.89)">
-        <path d="m84.156-168.31v168.31h-84.156v-420.38h336.22v84.156h-252.06v83.75h252.06v84.156z" />
-      </g>
-      <g transform="translate(378.7 629.89)">
-        <path d="m420.38-336.22v252.06h-84.156v84.156h-336.22v-420.38h336.22v84.156zm-336.22 252.06h251.23v-252.06h-251.23z" />
-      </g>
+      <image href="/logo.png" x="0" y="0" height="180" width="180" />
     </svg>
   `;
   return fullSvg;

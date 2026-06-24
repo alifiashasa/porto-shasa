@@ -7,6 +7,7 @@ import {
   CircleUserIcon,
   CornerDownLeftIcon,
   DownloadIcon,
+  HomeIcon,
   LetterTextIcon,
   MoonStarIcon,
   SunIcon,
@@ -50,15 +51,15 @@ type CommandLinkItem = {
 
 const MENU_LINKS: CommandLinkItem[] = [
   {
-    title: "Dilsfolio",
+    title: "Portofolio",
     href: "/",
-    icon: ChanhDaiMark,
+    icon: HomeIcon,
   },
-  {
-    title: "Components",
-    href: "/components",
-    icon: Icons.react,
-  },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  //   icon: Icons.react,
+  // },
 ];
 
 const DAIFOLIO_LINKS: CommandLinkItem[] = [
@@ -92,11 +93,11 @@ const DAIFOLIO_LINKS: CommandLinkItem[] = [
   //   href: "/#certs",
   //   icon: Icons.certificate,
   // },
-  {
-    title: "Download vCard",
-    href: "/vcard",
-    icon: CircleUserIcon,
-  },
+  // {
+  //   title: "Download vCard",
+  //   href: "/vcard",
+  //   icon: CircleUserIcon,
+  // },
 ];
 
 const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
@@ -259,7 +260,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
                 );
               }}
             >
-              <ChanhDaiMark />
+              <ChanhDaiMark width={18} height={18} />
               Copy Mark as SVG
             </CommandItem>
 
